@@ -25,13 +25,18 @@ body{
     background-color: #D9D9D9; 
 }  
 
+#menu-container {
+    display: block;
+    width: 35px;
+    margin-right:0px;
+}
+
 .menu {
-    position: static;
+    position:relative;
     width: 35px;
     height: 5px;
     background-color: black;
-    margin: 6px 0;
-    margin-left: 90%;
+    margin-top: 6px;
 }
 
 #coppa{
@@ -70,8 +75,8 @@ body{
 
 #trattino{
     font-size: 30px;
-    margin-top: -20%;
-    margin-left: 45%;
+    /* margin-top: -20%;
+    margin-left: 45%; */
 }
 
 #cpu{
