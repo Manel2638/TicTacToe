@@ -1,4 +1,60 @@
+body {
+    background-color: #D9D9D9;
+}
 
+/* Header */
+header {
+    margin-bottom: 20px;
+}
+#home {
+    height: 50px;
+    width: 55px;
+}
+
+#menu-container {
+    display: inline-block;
+    position:absolute;
+    width: 35px;
+    right: 0px;
+}
+
+.menu-line {
+    position: relative;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin-top: 6px;
+}
+
+/* Score */
+#score-container {
+    margin:0 auto;
+    width:80%;
+    text-align:center;
+}
+
+#user-score,#cpu-score {
+    width:40%;
+    display: inline-block;
+}
+
+#user {
+    margin-right: 5%;
+}
+
+.score {
+    margin: 0 1%;
+}
+
+#dash {
+    font-size: 30px;
+}
+
+#cpu {
+    margin-left: 5%;
+}
+
+/* Game board */
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -6,85 +62,18 @@
     background-color: black;
     width: 75%;
     margin: 40% auto auto auto;
-    
 }
 
-.grid-item{
+.grid-item {
     aspect-ratio: 1;
-    background-color: #D9D9D9; 
+    background-color: #D9D9D9;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 70px;
     font-family: 'lucida console';
     text-shadow: 2px 2px 4px #000000;
-    
 }
-
-body{
-    background-color: #D9D9D9; 
-}  
-
-#menu-container {
-    display: block;
-    width: 35px;
-    margin-right:0px;
-}
-
-.menu {
-    position:relative;
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin-top: 6px;
-}
-
-#coppa{
-    margin-top:20%;
-    margin-left: 20%;
-}
-
-#coppa2{
-    margin-left: 30%;
-}
-
-#coins{
-    margin-left:  38%; ;
-    margin-top: -15%;
-}
-
-#utente{
-    margin-top: 10%;
-    margin-left:10%;
-}
-
-.punteggio{
-    margin-left: 2%;
-    margin-bottom: 1%;
-}
-
-#punteggio2{
-    margin-left: 9%;
-    margin-bottom: 1%;
-}
-
-.punteggio3{
-    margin-left: 1%;
-    margin-bottom: 1%;
-}
-
-#trattino{
-    font-size: 30px;
-    /* margin-top: -20%;
-    margin-left: 45%; */
-}
-
-#cpu{
-    margin-left: 3%;
-}
-
-
-
 
 .circle {
     width: 60%;
@@ -111,4 +100,19 @@ body{
 
 .cross-line-b {
     transform: rotate(-45deg);
+}
+
+/* Coins */
+#cup-user {
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+#cup-cpu {
+    margin-left: 30%;
+}
+
+#coins {
+    margin-left: 38%;
+    margin-top: -15%;
 }
