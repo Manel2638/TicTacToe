@@ -15,7 +15,7 @@ header {
     display: inline-block;
     position:absolute;
     width: 35px;
-    right: 0px;
+    right: 3%;
 }
 
 .menu-line {
@@ -104,15 +104,15 @@ header {
 
 /* Coins */
 #cup-user {
-    margin-top: 20%;
-    margin-left: 20%;
+   /* margin-top: 20%;
+    margin-left: 20%;  */
 }
 
 #cup-cpu {
-    margin-left: 30%;
+    /*margin-left: 30%; */
 }
 
-#coins {
-    margin-left: 38%;
-    margin-top: -15%;
+#coins-container {
+    text-align: center;
+    margin: 0 auto 0 auto;
 }
